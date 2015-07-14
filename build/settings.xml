@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<settings>
+  
+  <default>
+    <name>TR Q</name>
+  </default>
+  
+  <language>
+    <name>TR Q</name>
+    <file>keys.xml</file>
+  </language>
+  
+  <language>
+    <name>TR F</name>
+    <file>keysF.xml</file>
+  </language>
+  
+</settings>

@@ -1,0 +1,2 @@
+/home/can/projects/etaKeyboard/build/CMakeFiles/etakeyboard.dir
+/home/can/projects/etaKeyboard/build/CMakeFiles/uninstall.dir

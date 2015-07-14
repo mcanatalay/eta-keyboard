@@ -1,0 +1,302 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'etaKeyboard.h'
+**
+** Created by: The Qt Meta Object Compiler version 63 (Qt 4.8.6)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include "../etaKeyboard.h"
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'etaKeyboard.h' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 63
+#error "This file was generated using the moc from 4.8.6. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+static const uint qt_meta_data_etaKeyboard[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       9,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       1,       // signalCount
+
+ // signals: signature, parameters, type, tag, flags
+      13,   12,   12,   12, 0x05,
+
+ // slots: signature, parameters, type, tag, flags
+      32,   12,   12,   12, 0x0a,
+      41,   12,   12,   12, 0x0a,
+      52,   12,   12,   12, 0x0a,
+      63,   12,   12,   12, 0x0a,
+      74,   12,   12,   12, 0x0a,
+      96,   12,   12,   12, 0x0a,
+     118,   12,   12,   12, 0x0a,
+     140,   12,   12,   12, 0x0a,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_etaKeyboard[] = {
+    "etaKeyboard\0\0openLanguageMenu()\0"
+    "toggle()\0special1()\0special2()\0"
+    "special3()\0keyPushed(etaButton*)\0"
+    "keyPulled(etaButton*)\0readLanguage(QString)\0"
+    "readKeys()\0"
+};
+
+void etaKeyboard::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        Q_ASSERT(staticMetaObject.cast(_o));
+        etaKeyboard *_t = static_cast<etaKeyboard *>(_o);
+        switch (_id) {
+        case 0: _t->openLanguageMenu(); break;
+        case 1: _t->toggle(); break;
+        case 2: _t->special1(); break;
+        case 3: _t->special2(); break;
+        case 4: _t->special3(); break;
+        case 5: _t->keyPushed((*reinterpret_cast< etaButton*(*)>(_a[1]))); break;
+        case 6: _t->keyPulled((*reinterpret_cast< etaButton*(*)>(_a[1]))); break;
+        case 7: _t->readLanguage((*reinterpret_cast< QString(*)>(_a[1]))); break;
+        case 8: _t->readKeys(); break;
+        default: ;
+        }
+    }
+}
+
+const QMetaObjectExtraData etaKeyboard::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject etaKeyboard::staticMetaObject = {
+    { &QMainWindow::staticMetaObject, qt_meta_stringdata_etaKeyboard,
+      qt_meta_data_etaKeyboard, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &etaKeyboard::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *etaKeyboard::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *etaKeyboard::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_etaKeyboard))
+        return static_cast<void*>(const_cast< etaKeyboard*>(this));
+    return QMainWindow::qt_metacast(_clname);
+}
+
+int etaKeyboard::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QMainWindow::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 9)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 9;
+    }
+    return _id;
+}
+
+// SIGNAL 0
+void etaKeyboard::openLanguageMenu()
+{
+    QMetaObject::activate(this, &staticMetaObject, 0, 0);
+}
+static const uint qt_meta_data_etaLanguage[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       1,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: signature, parameters, type, tag, flags
+      13,   12,   12,   12, 0x0a,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_etaLanguage[] = {
+    "etaLanguage\0\0changeLanguage(etaButton*)\0"
+};
+
+void etaLanguage::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        Q_ASSERT(staticMetaObject.cast(_o));
+        etaLanguage *_t = static_cast<etaLanguage *>(_o);
+        switch (_id) {
+        case 0: _t->changeLanguage((*reinterpret_cast< etaButton*(*)>(_a[1]))); break;
+        default: ;
+        }
+    }
+}
+
+const QMetaObjectExtraData etaLanguage::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject etaLanguage::staticMetaObject = {
+    { &QWidget::staticMetaObject, qt_meta_stringdata_etaLanguage,
+      qt_meta_data_etaLanguage, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &etaLanguage::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *etaLanguage::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *etaLanguage::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_etaLanguage))
+        return static_cast<void*>(const_cast< etaLanguage*>(this));
+    return QWidget::qt_metacast(_clname);
+}
+
+int etaLanguage::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QWidget::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 1)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 1;
+    }
+    return _id;
+}
+static const uint qt_meta_data_etaButton[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       6,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       3,       // signalCount
+
+ // signals: signature, parameters, type, tag, flags
+      11,   10,   10,   10, 0x05,
+      31,   10,   10,   10, 0x05,
+      50,   10,   10,   10, 0x05,
+
+ // slots: signature, parameters, type, tag, flags
+      69,   10,   10,   10, 0x0a,
+      85,   10,   10,   10, 0x0a,
+     100,   10,   10,   10, 0x0a,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_etaButton[] = {
+    "etaButton\0\0clicked(etaButton*)\0"
+    "pulled(etaButton*)\0pushed(etaButton*)\0"
+    "buttonClicked()\0buttonPushed()\0"
+    "buttonPulled()\0"
+};
+
+void etaButton::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        Q_ASSERT(staticMetaObject.cast(_o));
+        etaButton *_t = static_cast<etaButton *>(_o);
+        switch (_id) {
+        case 0: _t->clicked((*reinterpret_cast< etaButton*(*)>(_a[1]))); break;
+        case 1: _t->pulled((*reinterpret_cast< etaButton*(*)>(_a[1]))); break;
+        case 2: _t->pushed((*reinterpret_cast< etaButton*(*)>(_a[1]))); break;
+        case 3: _t->buttonClicked(); break;
+        case 4: _t->buttonPushed(); break;
+        case 5: _t->buttonPulled(); break;
+        default: ;
+        }
+    }
+}
+
+const QMetaObjectExtraData etaButton::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject etaButton::staticMetaObject = {
+    { &QPushButton::staticMetaObject, qt_meta_stringdata_etaButton,
+      qt_meta_data_etaButton, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &etaButton::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *etaButton::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *etaButton::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_etaButton))
+        return static_cast<void*>(const_cast< etaButton*>(this));
+    return QPushButton::qt_metacast(_clname);
+}
+
+int etaButton::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QPushButton::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 6)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 6;
+    }
+    return _id;
+}
+
+// SIGNAL 0
+void etaButton::clicked(etaButton * _t1)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 0, _a);
+}
+
+// SIGNAL 1
+void etaButton::pulled(etaButton * _t1)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 1, _a);
+}
+
+// SIGNAL 2
+void etaButton::pushed(etaButton * _t1)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 2, _a);
+}
+QT_END_MOC_NAMESPACE
